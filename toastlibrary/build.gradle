@@ -46,7 +46,7 @@ afterEvaluate {
             release(MavenPublication){
                 from components.release
 
-                groupId='com.github/aadii2610'
+                groupId='com.github.aadii2610'
                 artifactId='toast-library'
                 version='1.0'
             }
