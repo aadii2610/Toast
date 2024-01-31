@@ -41,11 +41,11 @@ dependencies {
 }
 
 afterEvaluate {
-    publishing{
-        publications{
-            release(MavenPublication){
+    publishing {
+        publications {
+// Creates a Maven publication called "release".
+            release(MavenPublication) {
                 from components.release
-
                 groupId='com.github.aadii2610'
                 artifactId='toast-library'
                 version='1.0'
